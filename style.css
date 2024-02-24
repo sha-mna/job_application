@@ -1,0 +1,99 @@
+.container {
+	background-color: silver;
+	width: 750px;
+	height: 1350px;
+	border: 2px solid #607d8b;
+	padding: 40px;
+	margin-left: 250px;
+}
+
+h1 {
+	margin-left: 140px;
+	text-decoration: underline;
+}
+
+.sectionOne {
+	display: flex;
+	margin-left: 40px;
+}
+
+.labelAndInput {
+	margin-top: 20px;
+}
+
+label {
+	font-weight: 700;
+}
+
+.sectionTwo {
+	margin-left: 40px;
+}
+
+.details {
+	padding-top: 20px;
+	font-weight: 700;
+}
+
+.photo {
+	background-color: white;
+	margin-right: 10px;
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	border: 1px solid grey;
+}
+
+.pic {
+	margin-top: 45px;
+	margin-left: 5px;
+	font-weight: 800;
+}
+
+.divOne {
+	margin-top: 20px;
+}
+
+.story {
+	font-weight: 700;
+}
+
+.audio {
+	margin-bottom: 25px;
+}
+
+.divTwo {
+	margin-top: 10px;
+}
+
+.opinion {
+	font-weight: 700;
+}
+
+.video {
+	width: 250px;
+	height: 200px;
+}
+
+.resume {
+	font-weight: 800;
+	margin-top: 10px;
+}
+
+.button {
+	margin-top: 20px;
+	margin-left: 300px;
+}
+
+.btnOne,
+.btnTwo {
+	border: 2px solid blue;
+	background-color: blue;
+	color: white;
+}
+
+.contact {
+	margin-left: 500px;
+	font-size: medium;
+	font-weight: 800;
+	color: blue;
+}

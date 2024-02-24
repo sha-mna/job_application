@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form class="container">
+			<h1>ONLINE JOB APPLICATION FORM</h1>
+			<div class="sectionOne">
+				<div>
+					<div class="labelAndInput">
+						<label>FIRST NAME :</label>
+						<input type="text" name="firstName" id="firstName" />
+						(max 30 characters a-z and A-Z)
+					</div>
+					<div class="labelAndInput">
+						<label>LAST NAME :</label>
+						<input type="text" name="lastName" id="lastName" /> (max
+						30 characters a-z and A-Z)
+					</div>
+					<div class="labelAndInput">
+						<label>DATE OF BIRTH :</label>
+						<input
+							type="date"
+							name="dateOfBirth"
+							id="dateOfBirth"
+						/>
+					</div>
+					<div class="labelAndInput">
+						<label>PHONE NUMBER :</label>
+						<input
+							type="text"
+							name="mobileNumber"
+							id="mobileNumber"
+						/>
+						(10 digit number)
+					</div>
+					<div class="labelAndInput">
+						<label>GENDER :</label>
+						MALE<input type="radio" name="male" id="male" />
+						FEMALE<input type="radio" name="female" id="female" />
+						OTHERS<input type="radio" name="others" id="others" />
+					</div>
+					<div class="labelAndInput">
+						<label>BLOOD GROUP :</label>
+						<select>
+							<option>Select</option>
+						</select>
+					</div>
+					<div class="labelAndInput">
+						<label>ADDRESS :</label><br />
+						<textarea rows="5" col="50"></textarea>
+					</div>
+					<div class="labelAndInput">
+						<label>CITY :</label>
+						<input type="text" name="city" id="city" />
+					</div>
+					<div class="labelAndInput">
+						<label>PINCODE :</label>
+						<input type="text" name="pincode" id="pincode" />
+					</div>
+					<div class="labelAndInput">
+						<label>STATE :</label>
+						<input type="text" name="state" id="state" />
+					</div>
+					<div class="labelAndInput">
+						<label>COUNTRY :</label>
+						<input type="text" name="country" id="country" />
+					</div>
+					<div class="labelAndInput">
+						<label>HOBBIES :</label>
+						DRAWING<input
+							type="checkbox"
+							name="drawing"
+							id="drawing"
+						/>
+						SINGING<input
+							type="checkbox"
+							name="drawing"
+							id="drawing"
+						/>
+						DANCING<input
+							type="checkbox"
+							name="drawing"
+							id="drawing"
+						/>
+						SKETCHING<input
+							type="checkbox"
+							name="drawing"
+							id="drawing"
+						/>
+						OTHERS<input
+							type="checkbox"
+							name="drawing"
+							id="drawing"
+						/>
+						<input />
+					</div>
+				</div>
+				<div class="photo">
+					<div class="pic"><a href="#">Upload Photo</a></div>
+				</div>
+			</div>
+			<div class="sectionTwo">
+				<div class="details">QUALIFICATION :</div>
+				<table border="1">
+					<tr>
+						<th>SL.NO</th>
+						<th>EXAMINATION</th>
+						<th>BOARD</th>
+						<th>PERCENTAGE</th>
+						<th>YEAR OF PASSING</th>
+					</tr>
+					<tr>
+						<td>1.</td>
+						<td>CLASS X</td>
+						<td><input type="text" /></td>
+						<td><input type="number" /></td>
+						<td><input type="number" /></td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>CLASS XII</td>
+						<td><input type="text" /></td>
+						<td><input type="number" /></td>
+						<td><input type="number" /></td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>GRADUATION</td>
+						<td><input type="text" /></td>
+						<td><input type="number" /></td>
+						<td><input type="number" /></td>
+					</tr>
+					<tr>
+						<td>4.</td>
+						<td>MASTERS</td>
+						<td><input type="text" /></td>
+						<td><input type="number" /></td>
+						<td><input type="number" /></td>
+					</tr>
+				</table>
+				<div class="divOne">
+					<div class="story">
+						Hear this short story and write summary in one line,
+						also suggest another appropriate title.
+					</div>
+					<audio
+						class="audio"
+						src="the-dinner-partymp3 (1).mp3"
+						type="audio/mp3"
+						controls
+					></audio>
+					<textarea name="textarea" rows="7" cols="40"></textarea>
+				</div>
+				<div class="divTwo">
+					<div class="opinion">
+						Watch this video and share your opinions.
+					</div>
+					<video
+						class="video"
+						src="technology.mp4"
+						type="video/mp4"
+						controls
+					></video>
+					<textarea name="textarea" rows="10" cols="40"></textarea>
+				</div>
+				<div class="resume">
+					<a href="#">Click Here To Upload Your Resume</a>
+				</div>
+			</div>
+			<div class="button">
+				<button class="btnOne">Submit</button>
+				<button class="btnTwo">Reset</button>
+			</div>
+			<div>
+				<i class="contact">For queries please contact 1234567890</i>
+			</div>
+		</form>
+	</body>
+</html>
